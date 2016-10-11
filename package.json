@@ -1,0 +1,33 @@
+{
+  "name": "platzigram",
+  "version": "0.1.0",
+  "description": "Platzigram frontend",
+  "main": "z",
+  "scripts": {
+    "test": "echo > no test",
+    "build:styles": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mglcarmona/platzigram.git"
+  },
+  "keywords": [
+    "js",
+    "express"
+  ],
+  "author": "mglcarmona",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mglcarmona/platzigram/issues"
+  },
+  "homepage": "https://github.com/mglcarmona/platzigram#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "materialize-css": "^0.97.7"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2"
+  }
+}
