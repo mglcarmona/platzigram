@@ -1,8 +1,13 @@
 var express = require('express');
 var app     = express();
 
+app.set('view engine', 'pug');
+app.use(express.static('public'));
+
 app.get('/', function(req, res) {
-  res.send('Works');
+  res.render('index', {
+    index: 69
+  });
 });
 
 app.listen(3000, function(err) {
